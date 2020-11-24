@@ -1,0 +1,44 @@
+@media screen and (max-width: 600px) {
+    .main{
+        width: 320px;
+    }
+}
+
+@media screen and (min-width: 600px){
+    .main{
+        width: 450px;
+    }
+}
+
+.main{
+    background-color: white;
+    padding: 1.8em;
+    text-align: center;
+    border-radius: 1em;
+}
+
+.head-title{
+    font-family: "Sukhumvit Set Semi";
+    font-size: 35px;
+    font-weight: 'bold';
+    color: #6daa5a;
+    margin-bottom: 20px;
+}
+
+.content-title{
+    font-family: "Sukhumvit Set Semi";
+}
+
+.content{
+    font-family: "Sukhumvit Set";
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+
+.topbar{
+    margin-top: 10px;
+}
+
+.topbar a{
+    color: "#000000"
+}
