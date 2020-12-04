@@ -56,7 +56,7 @@ function QRShow(){
         console.log(e)
     }
 
-    var qrValue = "|"+companyName[company].taxid+"\n"+ref1+"\n"+ref2+"\n"+amountData.value
+    var qrValue = "|"+companyName[company].taxid+"00\n"+ref1+"\n"+ref2+"\n"+amountData.value
 
     return(
         <>
